@@ -1,5 +1,5 @@
 Django
 gunicorn
-django-boostrap3
+django-bootstrap3
 django-braces
 django-misaka
