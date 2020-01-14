@@ -4,3 +4,4 @@ gunicorn
 django-braces
 django-misaka
 django-heroku
+whitenoise
