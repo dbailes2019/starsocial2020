@@ -2,8 +2,8 @@
 
 {% block content %}
   {% if user.is_authenticated %}
-  <h1>Welcome back  <a href="{% url 'posts:for_user' username=user.username %}" title="click for your posts">@{{user.username }}</a></h1>
+  <h2>Welcome back  <a href="{% url 'posts:for_user' username=user.username %}" title="click for your posts">@{{user.username }}</a></h2>
   {% else %}
-  <h1>Welcome to Star Social 2020</h1>
+  <h2>Welcome to Star Social 2020</h2>
   {% endif %}
 {% endblock %}
